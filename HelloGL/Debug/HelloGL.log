@@ -1,0 +1,81 @@
+﻿Build started 20/01/2015 14:58:49.
+     1>Project "C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\HelloGL\HelloGL.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Cube.cpp Enemy.cpp GLUTCallbacks.cpp HelloGL.cpp Projectile.cpp main.cpp MeshLoader.cpp OBJLoader.cpp OBJParser.cpp Player.cpp SceneObject.cpp Texture2D.cpp
+         Texture2D.cpp
+         SceneObject.cpp
+         Player.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\player.cpp(17): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\player.cpp(19): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\player.cpp(50): warning C4018: '<' : signed/unsigned mismatch
+         OBJParser.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(37): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(45): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(52): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(59): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(304) : see declaration of 'sscanf'
+         OBJLoader.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objloader.cpp(99): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objloader.cpp(102): warning C4018: '<' : signed/unsigned mismatch
+         MeshLoader.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\meshloader.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\meshloader.cpp(56): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+         Projectile.cpp
+         HelloGL.cpp
+         GLUTCallbacks.cpp
+         Enemy.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\enemy.cpp(13): warning C4305: '=' : truncation from 'double' to 'float'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\enemy.cpp(16): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\enemy.cpp(18): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+         Cube.cpp
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(11): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(13): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(19): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(21): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(169): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\cube.cpp(171): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(87): warning C4715: 'OBJParser::Load' : not all control paths return a value
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(45): warning C4700: uninitialized local variable 'tempZ' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(45): warning C4700: uninitialized local variable 'tempY' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(45): warning C4700: uninitialized local variable 'tempX' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(52): warning C4700: uninitialized local variable 'tempZ' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(52): warning C4700: uninitialized local variable 'tempY' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(52): warning C4700: uninitialized local variable 'tempX' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(59): warning C4700: uninitialized local variable 'tempZ' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(59): warning C4700: uninitialized local variable 'tempY' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(59): warning C4700: uninitialized local variable 'tempX' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempZ3' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempY3' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempX3' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempZ2' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempY2' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempX2' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempZ1' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempY1' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(66): warning C4700: uninitialized local variable 'tempX1' used
+     1>c:\users\r026405b\downloads\ggs final assignment 2\ggs final assignment 2\hellogl assignment\hellogl\hellogl\objparser.cpp(68): warning C4700: uninitialized local variable 'temp' used
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\Debug\HelloGL.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\Debug\HelloGL.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\Debug\HelloGL.lib" /MACHINE:X86 Debug\Cube.obj
+         Debug\Enemy.obj
+         Debug\GLUTCallbacks.obj
+         Debug\HelloGL.obj
+         Debug\Projectile.obj
+         Debug\main.obj
+         Debug\MeshLoader.obj
+         Debug\OBJLoader.obj
+         Debug\OBJParser.obj
+         Debug\Player.obj
+         Debug\SceneObject.obj
+         Debug\Texture2D.obj
+         HelloGL.vcxproj -> C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\Debug\HelloGL.exe
+     1>Done Building Project "C:\Users\r026405b\Downloads\GGS FINAL ASSIGNMENT 2\GGS FINAL ASSIGNMENT 2\HelloGL Assignment\HelloGL\HelloGL\HelloGL.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.24

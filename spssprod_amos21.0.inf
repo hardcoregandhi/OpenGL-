@@ -1,0 +1,14 @@
+[Product]
+ProductName=IBM SPSS Amos 21
+FeatureCode=9005
+DaemonHost=crwnlic2
+CommuterMaxLife=7
+CompanyName=Staffordshire University
+VersionMajor=21
+VersionMinor=0
+VersionPatch=0
+Version=21.0.0.1
+SerialNumber= 
+[ProductRegistration]
+ALT=ProductRegistration.pdf
+URL=http://www.ibm.com/software/analytics/spss/register/
